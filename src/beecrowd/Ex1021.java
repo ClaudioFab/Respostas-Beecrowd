@@ -2,19 +2,19 @@ package beecrowd;
 import java.io.IOException;
 import java.text.DecimalFormat;
 import java.util.Scanner;
-public class Ex1011 {
+public class Ex1021 {
     public static void main(String[] args) throws IOException {
-        DecimalFormat df3 = new DecimalFormat("0.000");
+        DecimalFormat df2 = new DecimalFormat("0.00");
         
         Scanner scan = new Scanner(System.in);  
         
-        double R = scan.nextDouble();
+        double valor = scan.nextDouble();
+       
         
-        double pi = 3.14159;
-
-        double volume = (4/3.0) * pi * (R*R*R);
-
-        System.out.println("VOLUME = "+df3.format(volume));
         
+        
+        
+        
+        System.out.println("valor: "+df2.format(valor));
     }
 }
