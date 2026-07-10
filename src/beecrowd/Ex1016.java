@@ -1,10 +1,8 @@
 package beecrowd;
-
 import java.io.IOException;
-import java.text.DecimalFormat;
 import java.util.Scanner;
 public class Ex1016 {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
         Scanner scan = new Scanner(System.in);  
         
         int x = 60;
@@ -16,17 +14,13 @@ public class Ex1016 {
         
         int minutos = hora/restoKm;  
 
-        
-        
         int distanciaKm = scan.nextInt();
         
         int valor = distanciaKm*minutos;
-        
-                
+             
         System.out.println(valor+" minutos");
        
         scan.close();
-    }
-    
+    }  
 }
 
